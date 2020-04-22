@@ -34,40 +34,17 @@
             
             
              // end test for info box2
+                        
             
-            
-            
-            var pageLang = $.urlParam('lang') || 'en';
-            
-            var languageToggle = $('#language-toggle');
-            if(pageLang === 'en'){
-                languageToggle.text('Français');
-                languageToggle.attr("href", "?lang=fr");
-            } else {
-                languageToggle.text('English');
-                languageToggle.attr("href", "?lang=en");
-            }
-            
-            $("multilang").each(function(){
-                if ($(this).find('en').length) {
-                    var english = $(this).find('en');
-                    var french = $(this).find('fr');
-                    $(this).html(pageLang === 'en' ? english : french);
-                } else {
-                    var text = $(this).text();
-                    var arr = text.split('@');
-                    var english = arr[1].replace('en|', '').trim();
-                    var french = arr[2].replace('fr|', '').trim();
-                    $(this).replaceWith(pageLang === 'en' ? english : french);
-                }
-            });
-            
-            $('[src-en]').each(function(){
-                var img = $(this);
-                img.attr('src', pageLang === 'en' ? img.attr('src-en') : img.attr('src-fr'));
-            })
-        });
-        
+            function hideEN() {
+  var x = document.getElementById("en");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+                    
+} 
      
         
         
