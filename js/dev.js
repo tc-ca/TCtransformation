@@ -36,7 +36,7 @@
              // end test for info box2
                         
             
-            function hideEn() {
+            function hideEnglish() {
   var x = document.getElementsByTagName()("en");
   if (x.style.display === "none") {
     x.style.display = "block";
