@@ -555,3 +555,24 @@
       /* line 442, ../scss/main.scss */
       .carousel .carousel-item .caro-text-container h1 {
         font-size: 3.5em; } }
+
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css */
+
+.carousel-control-next, .carousel-control-prev {
+  /* position: absolute; */
+  /* top: 0; */
+  /* bottom: 0; */
+}
+
+.carousel {
+  /* position: relative; */
+}
+
+/* dev.css | https://tc-ca.github.io/TCtransformation/css/dev.css */
+
+.carousel {
+  /* position: absolute; */
+  /* z-index: 999; */
+}
+
