@@ -37,7 +37,7 @@
                         
             
             function hideEN() {
-  var x = document.getElementById("en");
+  var x = document.getElementsByTagName()("en");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
