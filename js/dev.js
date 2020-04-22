@@ -36,14 +36,14 @@
              // end test for info box2
                         
             
-            function hideEN() {
+            function hideEn() {
   var x = document.getElementsByTagName()("en");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-                    
+               
 } 
      
         
