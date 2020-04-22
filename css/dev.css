@@ -1,0 +1,557 @@
+/* CSS Document */
+    @import url("https://fonts.googleapis.com/css?family=Raleway:400,600,900");
+    /* line 15, ../scss/main.scss */
+    * {
+      font-family: 'Roboto', sans-serif !important; }
+
+      h1.stock, h2.stock, h3.stock, h4.stock, h5.stock, h6.stock {
+      font-family: inherit;
+      font-weight: 500;
+      line-height: 1.2;
+      color: inherit; }
+ 
+     h1.stock {
+     font-size: 2.5rem; 
+     text-align: left;}
+
+     h2.stock {
+     font-size: 2rem; 
+     text-align: left;      
+     margin-bottom: 0px;}
+
+     h3.stock {
+     font-size: 1.5rem; 
+     text-align: left;}
+
+     h4.stock {
+     font-size: 1rem; 
+     text-align: left;
+     max-width: 100%;}
+
+    /* line 19, ../scss/main.scss */
+    h2 {
+      font-size: 28px !important;
+      font-weight: 600 !important;
+      margin-bottom: 8px;
+      color: #2E2E2E;
+      margin: 10px 0; }
+    
+
+    
+    /* line 76, ../scss/main.scss */
+    h4 {
+      font-size: 19px;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      font-weight: 500;
+      color: #da5a26; }
+    
+    /* line 36, ../scss/main.scss */
+    h5 {
+      color: #2E2E2E;
+      font-size: 50px;
+      text-align: left;
+      font-weight: 600;
+      }
+    
+    /* line 39, ../scss/main.scss */
+    a {
+      color: #da5a26; }
+    
+    /* line 42, ../scss/main.scss */
+    .hr-tick-center {
+      width: 50px;
+      border: 2px solid #da5a26;
+      margin: 16px auto; }
+    
+    /* line 46, ../scss/main.scss */
+    .hr-tick-center-white {
+      width: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      margin: auto; 
+      background-color: rgba(0, 0, 0, 0);
+      margin: 16px auto; }
+    
+    /* line 50, ../scss/main.scss */
+    .btn {
+      font-size: 16px !important;
+      padding: 0.5em 1.5em !important; }
+    
+    /* line 54, ../scss/main.scss */
+    .btn-primary {
+      background-color: #da5a26 !important;
+      color: #fff;
+      border: none !important;
+      transition: .3s !important; }
+      /* line 59, ../scss/main.scss */
+      .btn svg {
+        margin-left: 5px; }
+      /* line 62, ../scss/main.scss */
+      .btn:hover {
+        background-color: #da5a26;
+        opacity: 0.8;
+        transform: translate(2px); }
+    
+    /* line 69, ../scss/main.scss */
+    h3 {
+      color: #2E2E2E;
+      font-size: 26px;
+      text-align: center;
+      font-weight: 600; }
+   
+    .boldText {
+      font-weight: 900; }
+    
+    /* line 80, ../scss/main.scss */
+    nav.navbar .navbar-brand {
+      display: none;
+      justify-content: center;
+      flex-grow: 1;
+      flex-shrink: 25;
+      height: 100%;
+      padding: 5px 0; }
+      /* line 82, ../scss/main.scss */
+      .navbar-brand img {
+        height: auto;
+        width: 100%;
+        max-width: 368px;
+        max-height: 100%; }
+    
+    /* line 88, ../scss/main.scss */
+    nav.navbar {
+      padding: 8px 16px;
+      background-color: #fff;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 0;
+      font-weight: 450;
+      justify-content: flex-end;}
+      /* line 92, ../scss/main.scss */
+      nav .nav-link {
+        font-size: 16px;
+        margin-right: 10px; }
+      /* line 97, ../scss/main.scss */
+      nav .dropdown-menu .dropdown-item {
+        transition: .3s; }
+        /* line 99, ../scss/main.scss */
+        nav .dropdown-menu .dropdown-item:hover {
+          background-color: #da5a26;
+          color: #fff;
+          padding-left: 28px !important; }
+        /* line 109, ../scss/main.scss */
+        nav .dropdown-menu .dropdown-item svg {
+          color: #2E2E2E;
+          margin-right: 10px; }
+      /* line 115, ../scss/main.scss */
+      nav #right-drop-fix {
+        right: 0;
+        left: auto; }
+        
+    /* line 121, ../scss/main.scss */
+    .carousel {
+      display: none;
+      background-color: #ccc; }
+      /* line 124, ../scss/main.scss */
+      .carousel {
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        z-index: 999;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-bottom: 1px solid #fff;
+        margin: 0;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 0px; }
+        
+        .alert {
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        z-index: 999;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-bottom: 1px solid #fff;
+        margin: 0;
+        padding-top: 5x;
+        border-radius: 0px; 
+        max-height: 400px;
+        min-height: 100px;
+        }
+        
+        /* line 135, ../scss/main.scss */
+        .carousel .alert a {
+          color: #da5a26 !important; }
+        /* line 138, ../scss/main.scss */
+        
+        .alert .close {
+        color: RED !important;
+        font-size: 2em;
+        }
+      /* line 144, ../scss/main.scss */
+      .carousel .carousel-item .height-max-caro {
+        max-height: 400px;
+        min-height: 400px; }
+        
+         #carouselExampleIndicators{
+             font-size: 0.0em !important;
+         } 
+        
+      /* line 148, ../scss/main.scss */
+      .carousel .carousel-item .caro-text-container {
+        position: absolute;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 100% 0;
+        width: 100%; }
+        /* line 156, ../scss/main.scss */
+        .carousel .carousel-item .caro-text-container h1 {
+          font-weight: 900;
+          font-size: 50px;}
+        /* line 162, ../scss/main.scss */
+        .carousel .carousel-item .caro-text-container p {
+          margin: 0 0 0px 0;
+          font-size: 30px;
+          font-weight: 400;}
+          
+    /* line 171, ../scss/main.scss */
+    .jumbotron {
+      background-color: rgba(0, 0, 0, 0.8);
+ background-image: url("http://www.gcpedia.gc.ca/gcwiki/images/0/09/Mobile-head.jpg");
+            background-size: cover;
+            text-align: center;
+      color: #ffffff;
+      padding: 9em 0 5em 0;
+      margin-bottom: 0px !important; }
+      /* line 178, ../scss/main.scss */
+      .jumbotron img {
+        max-width: 100px;
+        margin-bottom: 0em; }
+      /* line 183, ../scss/main.scss */
+      .jumbotron h1 {
+        color: #ffffff;
+        font-size: 1.8em;
+        font-weight: 900;
+        padding: 1em 1em 0 1em;
+        max-width: 1200px;
+        margin: 0 auto;}
+      /* line 193, ../scss/main.scss */
+      .jumbotron p {
+        margin: 0 0 40px 0;
+        font-size: 20x;
+        font-weight: 400;
+        text-shadow: 1px 1px #A7A7A7;
+        text-align: center; }
+      /* line 200, ../scss/main.scss */
+      .jumbotron .btn {
+        background-color: #ffffff;
+        color: #fff;
+        border: none;
+        margin-bottom: 10px; }
+        /* line 205, ../scss/main.scss */
+        .jumbotron .btn svg {
+          margin-right: 7px; }
+    
+    /* line 210, ../scss/main.scss */
+    .jumbotron-sub {
+      background-color: #00698c;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position-y: -280px;
+      text-align: center;
+      color: #fff;
+      padding: 11em 0 8em 0; }
+      /* line 218, ../scss/main.scss */
+      .jumbotron-sub img {
+        max-width: 100px;
+        margin-bottom: 2em; }
+      /* line 223, ../scss/main.scss */
+      .jumbotron-sub h1 {
+        color: #fff;
+        font-size: 2em;
+        font-weight: 900;
+        padding: .5em 1em;
+        max-width: 1200px;
+        margin: 0 auto;
+         }
+      /* line 233, ../scss/main.scss */
+      .jumbotron-sub .hr-tick-center {
+        width: 50px;
+        border: 1px solid #00698c;
+        margin: -10px auto 15px auto; }
+      /* line 238, ../scss/main.scss */
+      .jumbotron-sub p {
+        margin: 0 0 40px 0;
+        font-size: 24px;
+        font-weight: 600;
+         }
+        .jumbotron > hr {
+              border-top-color: none;
+        }
+        
+        /* line 245, ../scss/main.scss */
+.jumbotron-sub-even {
+  background-color: #00698c;
+  text-align: center;
+  color: #fff;
+  padding: 9em 0 4em 0; }
+  /* line 250, ../scss/main.scss */
+  .jumbotron-sub-even h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    padding: .5em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    
+    /* line 246, ../scss/main.scss */
+    #limegreen {
+      background-color: #b4bf23;
+      border: 1px solid #b4bf23; }
+      /* line 249, ../scss/main.scss */
+      
+    
+    /* line 253, ../scss/main.scss */
+    #lightblue {
+      background-color: #7CCCBD;
+      border: 1px solid #7CCCBD; }
+    
+    /* line 257, ../scss/main.scss */
+    #darkblue {
+      background-color: #00698C;
+      border: 1px solid #00698C; }
+    
+    /* line 261, ../scss/main.scss */
+    #orange {
+      background-color: #DF6420;
+      border: 1px solid #DF6420; }
+    
+    /* line 265, ../scss/main.scss */
+    #teal {
+      background-color: #28BDB3;
+      border: 1px solid #28BDB3; }/* line 265, ../scss/main.scss */
+      
+    #gray {
+      background-color: #8494a6;
+      border: 1px solid #8494a6; }
+    
+    /* line 270, ../scss/main.scss */
+    .padding-0 {
+      padding-right: 0;
+      padding-left: 0; }
+    
+    /* line 275, ../scss/main.scss */
+    .ultimate-goal-container {
+      background-color: #E2E2E2;
+      padding-top: 4em; }
+      /* line 278, ../scss/main.scss */
+      .ultimate-goal-container h3, .ultimate-goal-container h4 {
+        color: #fff; }
+      /* line 281, ../scss/main.scss */
+      .ultimate-goal-container h4 {
+        padding: 0 1em; }
+    
+    /* line 285, ../scss/main.scss */
+    .info-container {
+      text-align: center;
+      padding: 1em 0;
+      margin: 0em 4em !important; }
+      /* line 290, ../scss/main.scss */
+      
+      .info-box2 {
+        transition: .3s;
+        background-color: #fff;
+        border: 1px solid #E1E1E1;
+        border-radius: 5px;
+        padding: 1em;
+        margin-bottom: 10px;
+        color: #2E2E2E;
+        min-height: 90px;
+       
+        font-size: 20px;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.95);
+      }
+      
+         /* line 423, ../scss/main.scss*/
+     .info-box h2 {
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      margin-bottom: 8px;
+      color: #2E2E2E;
+      margin: 10px 0; }
+      
+      
+      .info-container .box-wrap .info-box {
+        transition: .3s;
+        background-color: #fff;
+        border: 1px solid #E1E1E1;
+        border-radius: 5px;
+        padding: 3em;
+        margin-bottom: 10px;
+        color: #2E2E2E;
+        background-color: rgba(255, 255, 255, 0.95);
+        min-height: 450px; }
+        /* line 300, ../scss/main.scss */
+        .info-container .box-wrap .info-box img {
+          width: 40%;
+          max-width: 500px;
+          margin-bottom: 1em; }
+          
+          .img {
+          width: 40%;
+          max-width: 80px;
+          margin-bottom: 1em; }
+          
+        /* line 305, ../scss/main.scss */
+        .info-container .box-wrap .info-box:hover {
+          transform: translate(0px, -2px) scale(1.02);
+          background-color: #fff; }
+    
+    /* line 314, ../scss/main.scss */
+    .cta, .cta-2 {
+      text-align: center;
+      background-color: #fff;
+      color: #2E2E2E;
+      margin: 0 auto; }
+      /* line 319, ../scss/main.scss */
+      .cta h4, .cta-2 h4 {
+        margin-bottom: 1em; }
+      /* line 325, ../scss/main.scss */
+      .cta .text-contain-cta, .cta-2 .text-contain-cta {
+        padding: 6em 0; }
+    
+    /* line 330, ../scss/main.scss */
+    .cta-mobile-contain {
+      display: block; }
+    
+    /* line 333, ../scss/main.scss */
+    .cta-contain {
+      display: none; }
+    
+    /* line 337, ../scss/main.scss */
+    .sub-info-section {
+      text-align: center;
+      padding: 3em 0; }
+      /* line 340, ../scss/main.scss */
+      .sub-info-section h2 {
+        margin-bottom: 25px;
+        font-weight: 600;
+        max-width: 900px;
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto; }
+      /* line 349, ../scss/main.scss */
+      .sub-info-section h3 {
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 1em; }
+      /* line 355, ../scss/main.scss */
+      .sub-info-section .sub-info-box {
+        background-color: #f8f8f8;
+        padding: 2em;
+        border: 1px solid #ccc; }
+        /* line 359, ../scss/main.scss */
+        .sub-info-section .sub-info-box ul {
+          text-align: left; }
+          /* line 361, ../scss/main.scss */
+          .sub-info-section .sub-info-box ul li {
+            margin: 1em 0; }
+      /* line 367, ../scss/main.scss */
+      .sub-info-section img {
+        margin-bottom: 50px;
+        margin-top: -160px;
+        width: 280px; }
+      /* line 372, ../scss/main.scss */
+      .sub-info-section .hr-tick {
+        width: 50px;
+        border: 1px solid #da5a26;
+        margin: 1em auto 2em auto; }
+    /* line 395, ../scss/main.scss */
+.sub-content-section {
+  padding: 6em 0 !important; }
+  /* line 397, ../scss/main.scss */
+  .sub-content-section h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0 auto; }
+  /* line 405, ../scss/main.scss */
+  .sub-content-section h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-top: -15px;}
+  /* line 412, ../scss/main.scss */
+  .sub-content-section .content-container {
+    margin-bottom: 2em; }
+  /* line 419, ../scss/main.scss */
+  .sub-content-section img {
+    margin-bottom: 20px;
+    width: 100%; }
+  /* line 424, ../scss/main.scss */
+  .sub-content-section .hr-tick {
+    width: 50px;
+    border: 1px solid #da5a26;
+    margin: 1em 0 2em 0; }
+      
+    /* line 379, ../scss/main.scss */
+    .footer {
+      background-color: #da5a26;
+      text-align: center;
+      color: #fff;
+      padding: 5em; }
+      
+      .footer img {
+           width: 250px;
+      }
+      /* line 384, ../scss/main.scss */
+      .footer svg {
+        font-size: 2em;
+        margin: 0 7px;
+        transition: .3s; }
+        /* line 388, ../scss/main.scss */
+        .footer svg:hover {
+          transform: scale(1.2);
+          cursor: pointer; }
+    
+    @media (min-width: 576px) {
+      /* line 397, ../scss/main.scss */
+      nav.navbar .navbar-brand {
+        display: block; }
+    
+      /* line 400, ../scss/main.scss */
+      .jumbotron {
+        display: none; }
+    
+      /* line 403, ../scss/main.scss */
+      .carousel {
+        display: block; } }
+    @media (min-width: 768px) {
+      /* line 412, ../scss/main.scss */
+      .carousel .carousel-item .caro-text-container {
+        margin-top: 20px; }
+        /* line 414, ../scss/main.scss */
+        .carousel .carousel-item .caro-text-container h1 {
+          font-size: 40px !important; }
+        /* line 417, ../scss/main.scss */
+        .carousel .carousel-item .caro-text-container p {
+          font-size: 30px !important; }
+    
+      /* line 424, ../scss/main.scss */
+      .jumbotron-sub h1 {
+        font-size: 3em; }
+    
+      /* line 428, ../scss/main.scss */
+      .cta-mobile-contain {
+        display: none; }
+    
+      /* line 431, ../scss/main.scss */
+      .cta-contain {
+        display: block; } }
+    @media (min-width: 992px) {
+      /* line 442, ../scss/main.scss */
+      .carousel .carousel-item .caro-text-container h1 {
+        font-size: 3.5em; } }
